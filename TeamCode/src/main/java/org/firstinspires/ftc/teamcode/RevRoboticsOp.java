@@ -62,6 +62,7 @@ public class RevRoboticsOp extends OpMode {
         telemetry.addData("Blue: ", blue);
         telemetry.update();
 
+        // trivial change
         if (gamepad1.a) {
             jewelKnocker.setPosition(-0.5);
         }
